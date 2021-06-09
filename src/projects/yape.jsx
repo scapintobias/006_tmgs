@@ -4,8 +4,13 @@ import { Title } from './__components';
 export function Yape() {
 	return (
 		<React.Fragment>
-			<Title text='yape' src='/img/yape__cover.jpeg'>
-				<span style={{ letterSpacing: '-7.5vw' }}>y</span>ape
+			<Title
+				text='yape'
+				src='/img/yape__cover.jpeg'
+				size='39vw'
+				subtitle='Human-robot interaction'
+			>
+				<span style={{ letterSpacing: '-10vw' }}>y</span>ape
 			</Title>
 
 			<main>

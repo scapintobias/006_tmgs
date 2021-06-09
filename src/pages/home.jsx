@@ -13,7 +13,7 @@ export function Home() {
 				</div>
 			</div>
 			<section className='flex flex-col items-center justify-center h-screen px-6 md:w-screen'>
-				<article className='z-10 max-w-screen-md font-serif sm:text-xs md:text-2xl'>
+				<article className='z-10 max-w-screen-md font-serif sm:text-base md:text-2xl'>
 					<div>
 						<span className='font-sans text-2xl'>&#8251;</span> Tobias here.
 					</div>

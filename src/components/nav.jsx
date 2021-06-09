@@ -32,7 +32,7 @@ export function Menu() {
 			<div className={`side-menu ${panelStyle} bg-gray-100`}>
 				<nav className='flex flex-col h-full space-y-2 font-light text-gray-800 uppercase md:mt-10 sm:justify-center'>
 					<NavLink
-						className='hover:text-gray-400 md:pl-3 sm:pl-8'
+						className='pl-8 text-4xl hover:text-gray-400'
 						to='/'
 						onClick={closePanel}
 					>
@@ -40,7 +40,7 @@ export function Menu() {
 					</NavLink>
 					<NavLink
 						activeClassName='text-red-600'
-						className='hover:text-gray-400 md:pl-3 sm:pl-8'
+						className='pl-8 text-4xl hover:text-gray-400'
 						to='/work'
 						onClick={closePanel}
 					>
@@ -48,7 +48,7 @@ export function Menu() {
 					</NavLink>
 					<NavLink
 						activeClassName='text-red-600'
-						className='hover:text-gray-400 md:pl-3 sm:pl-8'
+						className='pl-8 text-4xl hover:text-gray-400'
 						to='/about'
 						onClick={closePanel}
 					>
@@ -56,7 +56,7 @@ export function Menu() {
 					</NavLink>
 					<NavLink
 						activeClassName='text-red-600'
-						className='hover:text-gray-400 md:pl-3 sm:pl-8'
+						className='pl-8 text-4xl hover:text-gray-400'
 						to='/contacts'
 						onClick={closePanel}
 					>
@@ -71,17 +71,15 @@ export function Menu() {
 export function Nav() {
 	return (
 		<React.Fragment>
-			<div className='fixed z-40 flex flex-row items-center justify-between w-screen bg-white sm:h-8 md:h-12'>
+			<div className='fixed z-40 flex flex-row items-center justify-between w-screen h-12 bg-white'>
 				{/* logo */}
 				<NavLink className='flex items-center hover:text-gray-500 group' to='/'>
-					<div className='flex items-center justify-center m-2 text-3xl text-white bg-gray-800 sm:w-6 sm:h-6 sm:text-2xl sm:m-1 md:w-8 md:h-8 group-hover:bg-gray-500'>
+					<div className='flex items-center justify-center w-8 h-8 m-2 text-3xl text-white bg-gray-800 group-hover:bg-gray-500'>
 						&#8251;
 					</div>
 					{/* Type */}
 
-					<div className='tracking-tight md:text-4xl sm:text-lg noe md:pt-2 sm:pt-1'>
-						Tobias M GS
-					</div>
+					<div className='pt-2 text-4xl tracking-tight noe '>Tobias M GS</div>
 				</NavLink>
 				<section className='items-start mr-3 space-x-4 text-sm uppercase sm:hidden md:block'>
 					<NavLink

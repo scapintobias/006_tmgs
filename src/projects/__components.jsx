@@ -3,18 +3,24 @@ import React from 'react';
 export function Title(props) {
 	return (
 		<div>
-			<div className='w-screen h-screen overflow-hidden'>
+			<div className='absolute flex flex-col items-center justify-end w-screen h-screen pb-5 text-white'>
+				<div className='max-w-3xl pb-5 md:text-3xl sm:text-xl'>
+					{props.subtitle}
+				</div>
+				<div className='text-4xl animate-bounce'>&#9759;</div>
+			</div>
+			<div
+				className='w-screen h-screen overflow-hidden bg-center bg-cover'
+				style={{
+					backgroundImage: `url(${props.src})`,
+				}}
+			>
 				<div
-					className='absolute flex items-center justify-center w-screen h-full overflow-hidden font-sans font-black tracking-tighter text-white uppercase bg-gray-900 bg-opacity-50'
-					style={{ fontSize: '30vw' }}
+					className='flex items-center justify-center w-full h-full pr-3 font-sans font-black tracking-tighter text-white uppercase bg-gray-900 bg-opacity-50 '
+					style={{ fontSize: props.size }}
 				>
 					{props.children}
 				</div>
-				<img
-					src={props.src}
-					alt={props.text}
-					className='object-cover w-full h-full overflow-hidden'
-				/>
 			</div>
 		</div>
 	);

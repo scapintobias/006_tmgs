@@ -18,11 +18,14 @@ module.exports = {
 			},
 			screens: {
 				sm: '320px',
-				md: '769px',
+				md: '767px',
 			},
 			fontSize: {
-				sm: ['18px', '28px'],
-				base: ['21px', '32px'],
+				'sm': ['18px', '28px'],
+				'base': ['21px', '32px'],
+				'10xl': ['10rem', '1'],
+				'11xl': ['12rem', '1'],
+				'12xl': ['14rem', '1'],
 			},
 		},
 
