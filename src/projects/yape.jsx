@@ -1,13 +1,10 @@
 import React from 'react';
-import { Title } from '../components/components';
+import { Title } from './__components';
 
 export function Yape() {
 	return (
 		<React.Fragment>
-			<Title
-				text='yape'
-				src='https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80'
-			>
+			<Title text='yape' src='/img/yape__cover.jpeg'>
 				<span style={{ letterSpacing: '-7.5vw' }}>y</span>ape
 			</Title>
 

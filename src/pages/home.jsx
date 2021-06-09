@@ -14,18 +14,18 @@ export function Home() {
 			</div>
 			<section className='flex flex-col items-center justify-center h-screen px-6 md:w-screen'>
 				<article className='z-10 max-w-screen-md font-serif sm:text-xs md:text-2xl'>
-					<p>
+					<div>
 						<span className='font-sans text-2xl'>&#8251;</span> Tobias here.
-					</p>
-					<p className='pb-5'>
+					</div>
+					<div className='pb-5'>
 						<span className='font-black'>UX Researcher</span>&#8197;and&#8197;
 						<span className='font-black'>UX Designer</span>&#8197; from northern
 						Italy.
-					</p>
-					<p>
+					</div>
+					<div>
 						I combine the iterative process of design thinking with a
 						human-centered approach to complex problems.
-					</p>
+					</div>
 					<div className='flex pt-12'>
 						<div className='pr-4'>Check my work</div>
 						<NavLink to='/work' className='font-sans text-4xl bottom-2'>
