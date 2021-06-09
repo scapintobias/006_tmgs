@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Card } from '../components/components';
 
 export function Work() {
 	return (
@@ -18,22 +19,15 @@ export function Work() {
 						recording or broadcasting, from 1960.
 					</p>
 				</article>
-				<div className='flex flex-col w-full space-y-4'>
-					<NavLink
-						to='/work/yape'
-						className='flex items-end self-end justify-end p-4 bg-blue-300 md:w-7/12 h-96 group hover:bg-blue-200'
-					>
-						<p className='text-4xl font-bold text-blue-800 group-hover:text-blue-400'>
-							Yape
-						</p>
-					</NavLink>
+				<div className='space-y-4'>
+					<Card url='https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80' />
 					<NavLink
 						to='/work/mrbin'
 						className='flex items-end justify-end w-7/12 p-4 bg-green-300 h-96 group hover:bg-green-200'
 					>
-						<p className='text-4xl font-bold text-green-800 group-hover:text-green-600'>
+						<div className='text-4xl font-bold text-green-800 group-hover:text-green-600'>
 							Waste Sorting
-						</p>
+						</div>
 					</NavLink>
 				</div>
 			</section>

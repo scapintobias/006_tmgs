@@ -16,7 +16,7 @@ export function Menu() {
 	};
 
 	return (
-		<div className='z-50 md:hidden'>
+		<div className='z-40 md:hidden'>
 			<div
 				className='text-gray-800 cursor-pointer md:px-2 sm:text-2xl sm:px-1 md:text-3xl animate-spin'
 				onClick={openPanel}
@@ -110,8 +110,4 @@ export function Nav() {
 			</div>
 		</React.Fragment>
 	);
-}
-
-export function ClearFix() {
-	return <div style={{ height: '60px' }} className=' static' />;
 }

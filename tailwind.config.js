@@ -18,6 +18,7 @@ module.exports = {
 			},
 			screens: {
 				sm: '320px',
+				md: '769px',
 			},
 			fontSize: {
 				sm: ['18px', '28px'],

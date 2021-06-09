@@ -149,7 +149,7 @@ html {
 
 @layer base {
 	main {
-		@apply container max-w-2xl mx-auto my-10 px-4 lg:px-0;
+		@apply container max-w-2xl px-4 mx-auto my-10 lg:px-0;
 	}
 	h1,
 	h2,
@@ -157,72 +157,27 @@ html {
 	h4,
 	h5,
 	h6 {
-		@apply font-medium pt-5 mb-2;
+		@apply font-medium md:pt-5 md:mb-2 sm:pt-3 sm:mb-1;
 	}
 	h1 {
-		@apply text-4xl;
+		@apply md:text-4xl sm:text-3xl;
 	}
 	h2 {
-		@apply text-3xl;
+		@apply md:text-3xl sm:text-2xl;
 	}
 	h3 {
-		@apply text-2xl;
+		@apply md:text-2xl sm:text-xl;
 	}
 	h4 {
-		@apply text-xl;
+		@apply md:text-xl sm:text-base;
 	}
 
 	p {
-		@apply font-serif mb-4;
-	}
-	blockquote {
-		@apply bg-gray-100 my-6 pt-4 pb-px px-3 border-l-8 border-gray-300;
-	}
-	ol,
-	ul {
-		@apply mb-4;
-	}
-	ol {
-		@apply list-decimal;
-	}
-	ul {
-		@apply list-disc;
-	}
-	ol ol,
-	ol ul,
-	ul ol,
-	ul ul {
-		@apply mb-0;
-	}
-	ul ul,
-	ol ul {
-		list-style-type: circle;
-	}
-	pre {
-		@apply mb-4 p-5 overflow-auto;
-		background: #f5f2f0; /* for consistency with Prismjs theme */
-	}
-	code {
-		@apply bg-gray-100 text-sm font-bold p-1 rounded-sm;
-	}
-	code:before,
-	code:after {
-		@apply font-normal text-xs;
-		content: '`';
-	}
-	pre code {
-		@apply bg-transparent font-normal p-0;
-	}
-	pre code::before,
-	pre code:after {
-		content: none;
-	}
-	hr {
-		@apply my-4;
+		@apply font-serif md:mb-4 sm:mb-1 sm:text-sm md:text-base;
 	}
 
-	img {
-		max-width: 100%;
-		vertical-align: middle;
+	ul,
+	li {
+		@apply font-serif sm:text-sm md:text-base;
 	}
 }

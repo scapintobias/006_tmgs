@@ -1,28 +1,40 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import {
+	BrowserRouter as Router,
+	Route,
+	Switch,
+	useLocation,
+} from 'react-router-dom';
 import { Home, About, Work, Contacts, Yape } from './pages/';
-
 import { Nav } from './components/nav';
 
-function PageContent() {
-	return (
-		<Switch>
-			<Route path='/' exact component={Home} />
-			<Route path='/about' exact component={About} />
-			<Route path='/work' exact component={Work} />
-			<Route path='/work/yape' exact component={Yape} />
+function ScrollToTop() {
+	const { pathname } = useLocation();
 
-			<Route path='/contacts' exact component={Contacts} />
-		</Switch>
-	);
+	useEffect(() => {
+		window.scrollTo(0, 0);
+		window.onbeforeunload = function () {
+			window.scrollTo(0, 0);
+		};
+	}, [pathname]);
+
+	return null;
 }
 
 export default function App() {
 	return (
 		<Router>
+			<ScrollToTop />
 			<Nav />
 
-			<PageContent />
+			<Switch>
+				<Route path='/' exact component={Home} />
+				<Route path='/about' exact component={About} />
+				<Route path='/work' exact component={Work} />
+				<Route path='/work/yape' exact component={Yape} />
+
+				<Route path='/contacts' exact component={Contacts} />
+			</Switch>
 		</Router>
 	);
 }
