@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from '../components/components';
+import { Card } from '../components/card';
 
 export function Work() {
 	return (
@@ -21,7 +21,7 @@ export function Work() {
 						recording or broadcasting, from 1960.
 					</p>
 				</div>
-				<h1 className='self-start w-full px-3 mb-3 tracking-tighter'>
+				<h1 className='self-start w-full mb-3 tracking-tighter '>
 					Case Studies
 				</h1>
 			</section>
@@ -32,10 +32,29 @@ export function Work() {
 					to='/work/yape'
 					text='Yape'
 					subtitle='Human-Robot Interaction'
+					bg='bg-yellow-500'
 				/>
-				<Card url='/img/pharma__cover.jpeg' to='/work/pharma' text='Pharma' />
-				<Card url='/img/blimp__cover.jpeg' to='/work/blimp' text='Blimp' />
-				<Card url='/img/mrbin__cover.jpeg' to='/work/mrbin' text='MrBin' />
+				<Card
+					url='/img/pharma__cover.jpeg'
+					to='/work/pharma'
+					text='Pharma'
+					subtitle='Reinventing medicine packaging'
+					bg='bg-ruby-400'
+				/>
+				<Card
+					url='/img/blimp__cover.jpeg'
+					to='/work/blimp'
+					text='Blimp'
+					subtitle='Analytics for analog ads'
+					bg='bg-purple-500'
+				/>
+				<Card
+					url='/img/mrbin__cover.jpeg'
+					to='/work/mrbin'
+					text='MrBin'
+					subtitle='Let’s talk trash'
+					bg='bg-green-600'
+				/>
 			</section>
 		</>
 	);

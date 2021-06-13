@@ -16,7 +16,7 @@ export function Title(props) {
 				}}
 			>
 				<div
-					className='flex items-center justify-center w-full h-full pr-3 font-sans font-black tracking-tighter text-white uppercase bg-gray-900 bg-opacity-50 '
+					className='flex items-center justify-center w-full h-full font-sans font-black tracking-tighter text-white uppercase bg-gray-900 bg-opacity-50 md:pr-5 sm:pr-1'
 					style={{ fontSize: props.size }}
 				>
 					{props.children}
