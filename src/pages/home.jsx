@@ -12,23 +12,21 @@ export function Home() {
 					<span className='font-light tracking-widest'>currently for hire</span>
 				</div>
 			</div>
-			<section className='flex flex-col items-center justify-center h-screen px-6 md:w-screen'>
-				<article className='z-10 max-w-screen-md font-serif sm:text-base md:text-2xl'>
+			<section className='absolute flex flex-col items-center justify-center w-screen px-3 h-whole'>
+				<article className='z-10 max-w-screen-lg font-serif sm:pt-20 sm:text-sm md:text-2xl'>
 					<div>
 						<span className='font-sans text-2xl'>&#8251;</span> Tobias here.
 					</div>
 					<div className='pb-5'>
 						<span className='font-black'>UX Researcher</span>&#8197;and&#8197;
-						<span className='font-black'>UX Designer</span>&#8197; from northern
+						<span className='font-black'>UX Designer</span>&#8197;from northern
 						Italy.
 					</div>
-					<div>
-						I combine the iterative process of design thinking with a
-						human-centered approach to complex problems.
-					</div>
-					<div className='flex pt-12'>
+					I combine the iterative process of design thinking with a
+					human-centered approach to complex problems.
+					<div className='flex items-center pt-12'>
 						<div className='pr-4'>Check my work</div>
-						<NavLink to='/work' className='font-sans text-4xl bottom-2'>
+						<NavLink to='/work' className='pt-1 font-sans text-3xl'>
 							&#x261E;
 						</NavLink>
 					</div>

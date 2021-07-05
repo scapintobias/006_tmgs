@@ -122,6 +122,9 @@ html {
 }
 
 @layer utilities {
+	.h-whole {
+		height: -webkit-fill-available;
+	}
 	.h-main {
 		height: calc(100vh - 50px);
 	}
@@ -149,7 +152,7 @@ html {
 
 @layer base {
 	main {
-		@apply container max-w-2xl px-4 mx-auto my-10 lg:px-0;
+		@apply container max-w-screen-lg py-10 mx-auto sm:px-3 lg:px-0;
 	}
 	h1,
 	h2,
@@ -160,7 +163,7 @@ html {
 		@apply font-medium md:pt-5 md:mb-2 sm:pt-3 sm:mb-1;
 	}
 	h1 {
-		@apply md:text-4xl sm:text-3xl;
+		@apply mb-3 tracking-tighter md:text-4xl sm:text-3xl;
 	}
 	h2 {
 		@apply md:text-3xl sm:text-2xl;

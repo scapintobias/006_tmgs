@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import CN from 'classnames';
+
 export function Card(props) {
 	return (
-		<section className='mx-auto lg:max-w-screen-lg sm:w-screen group'>
+		<section className='mx-auto lg:max-w-screen-lg sm:w-full group'>
 			<NavLink to={props.to}>
 				<div
 					style={{
@@ -13,14 +14,14 @@ export function Card(props) {
 				>
 					<div
 						className={CN(
-							'flex flex-col justify-between w-full h-full text-white group-hover:bg-transparent',
+							'flex flex-col justify-between w-full h-full text-white group-hover:bg-opacity-5',
 							props.bg
 						)}
 					>
-						<div className='tracking-tighter sm:text-6xl sm:font-black sm:p-1 md:text-9xl md:px-5 lg:text-11xl group-hover:text-transparent'>
+						<div className='tracking-tighter sm:text-6xl sm:font-black sm:p-1 md:text-9xl md:px-5 lg:text-11xl '>
 							{props.text}
 						</div>
-						<div className='p-3 font-light md:text-5xl sm:text-2xl group-hover:text-transparent'>
+						<div className='p-3 font-light md:text-5xl sm:text-lg '>
 							{props.subtitle}
 						</div>
 					</div>

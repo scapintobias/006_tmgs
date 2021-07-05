@@ -3,7 +3,7 @@ import React from 'react';
 export function Title(props) {
 	return (
 		<div>
-			<div className='absolute flex flex-col items-center justify-end w-screen h-screen pb-5 text-white'>
+			<div className='absolute flex flex-col items-center justify-end w-screen pb-5 text-white font-extralight h-whole '>
 				<div className='max-w-3xl pb-5 md:text-3xl sm:text-xl'>
 					{props.subtitle}
 				</div>

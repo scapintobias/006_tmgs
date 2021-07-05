@@ -14,7 +14,7 @@ export function Yape() {
 			</Title>
 
 			<main>
-				<h2>My Role</h2>
+				<h1>Context</h1>
 				<p>
 					I led the design for the driving interface between July and November
 					2018. I worked alongside the CEO of the company, a project manager, a
@@ -234,11 +234,11 @@ export function Yape() {
 				<p>
 					It was therefore decided to use Mapbox, verified its great versatility
 					in the customisation of styles, and its precision due to the support
-					on the Openstreetmap software. Roads and pedestrian paths can have a
-					really high contrast ratio with the buildings, so that visibility is
-					quite high even when the map is particularly small, or a glance is
-					given during driving operations, where concentration must remain to
-					the camera flow and lidars, to avoid any sudden obstacles.
+					on the Openstreetmap api. Roads and pedestrian paths can have a really
+					high contrast ratio with the buildings, so that visibility is quite
+					high even when the map is particularly small, or a glance is given
+					during driving operations, where concentration must remain to the
+					camera flow and lidars, to avoid any sudden obstacles.
 				</p>
 				<h2>Interface prototypes</h2>
 				<p>
@@ -247,7 +247,7 @@ export function Yape() {
 					on all the assumptions validated by the wide research, this interface
 					is only temporary, the drone will eventually drive itself, it will be
 					used only for testing purposes, so it's indeed more important that it{' '}
-					<i>works</i> than for it to look pretty.
+					<i>works</i> rather for it to look pretty.
 				</p>
 
 				<h2>Outcome</h2>
@@ -260,6 +260,7 @@ export function Yape() {
 					href='https://gigalife.vodafone.com/il-postino-5g-yape-robot-postman-delivery/'
 					target='_blank'
 					rel='noopener noreferrer'
+					className='hover:text-red-600'
 				>
 					Japan Post
 				</a>
@@ -268,6 +269,7 @@ export function Yape() {
 					href='https://www.bluebiz.com/en/bluebook/bluebook/say-hi-to-yape-at-frankfurt-airport/#:~:text=YAPE%20is%20an%20artificial%20intelligence,them%20transport%20their%20small%20luggage.'
 					target='_blank'
 					rel='noopener noreferrer'
+					className='hover:text-red-600'
 				>
 					Frankfurt Airport
 				</a>

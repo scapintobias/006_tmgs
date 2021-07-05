@@ -1,4 +1,4 @@
 export * from './yape';
-export * from './blimp';
+export * from './blobs';
 export * from './mrbin';
 export * from './pharma';

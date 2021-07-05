@@ -6,7 +6,7 @@ import {
 	useLocation,
 } from 'react-router-dom';
 import { Home, About, Work, Contacts } from './pages/';
-import { Blimp, MrBin, Pharma, Yape } from './projects';
+import { Blobs, MrBin, Pharma, Yape } from './projects';
 import { Nav } from './components/nav';
 
 function ScrollToTop() {
@@ -33,7 +33,7 @@ export default function App() {
 				<Route path='/about' exact component={About} />
 				<Route path='/work' exact component={Work} />
 				<Route path='/work/yape' exact component={Yape} />
-				<Route path='/work/blimp' exact component={Blimp} />
+				<Route path='/work/blobs' exact component={Blobs} />
 				<Route path='/work/mrbin' exact component={MrBin} />
 				<Route path='/work/pharma' exact component={Pharma} />
 
