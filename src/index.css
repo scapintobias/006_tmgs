@@ -152,7 +152,7 @@ html {
 
 @layer base {
 	main {
-		@apply container max-w-screen-lg py-10 mx-auto sm:px-3 lg:px-0;
+		@apply container max-w-screen-md py-10 mx-auto sm:px-3 md:px-0;
 	}
 	h1,
 	h2,

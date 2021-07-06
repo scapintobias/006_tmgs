@@ -13,7 +13,7 @@ export function Home() {
 				</div>
 			</div>
 			<section className='absolute flex flex-col items-center justify-center w-screen px-3 h-whole'>
-				<article className='z-10 max-w-screen-lg font-serif sm:pt-20 sm:text-sm md:text-2xl'>
+				<article className='z-10 max-w-screen-md font-serif sm:pt-20 sm:text-sm md:text-2xl'>
 					<div>
 						<span className='font-sans text-2xl'>&#8251;</span> Tobias here.
 					</div>
@@ -22,8 +22,8 @@ export function Home() {
 						<span className='font-black'>UX Designer</span>&#8197;from northern
 						Italy.
 					</div>
-					I combine the iterative process of design thinking with a
-					human-centered approach to complex problems.
+					I combine the iterative process of design thinking with a&nbsp;
+					<nobr>human-centered</nobr> approach to complex problems.
 					<div className='flex items-center pt-12'>
 						<div className='pr-4'>Check my work</div>
 						<NavLink to='/work' className='pt-1 font-sans text-3xl'>
