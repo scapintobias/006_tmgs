@@ -64,7 +64,7 @@ export function Menu() {
 export function Nav() {
 	return (
 		<React.Fragment>
-			<div className='fixed z-40 flex flex-row items-center justify-between w-screen h-10 bg-white border-b border-gray-200 border-opacity-50'>
+			<div className='fixed z-40 flex flex-row items-center justify-between w-screen h-10 text-gray-800 bg-white border-b border-gray-200 border-opacity-50'>
 				{/* logo */}
 				<NavLink className='flex items-center hover:text-gray-500 group' to='/'>
 					<div className='flex items-center justify-center m-1 text-3xl text-white bg-gray-800 sm:w-7 md:w-8 sm:h-7 md:h-8 group-hover:bg-gray-500'>
