@@ -18,11 +18,7 @@ module.exports = {
 			},
 			screens: {
 				sm: '320px',
-<<<<<<< HEAD
-				t:'600px',
-=======
 				t: '600px',
->>>>>>> Mobile
 				md: '767px',
 			},
 			fontSize: {

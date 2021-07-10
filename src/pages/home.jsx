@@ -12,30 +12,6 @@ export function Home() {
 					<span className='font-light tracking-widest'>currently for hire</span>
 				</div>
 			</div>
-<<<<<<< HEAD
-			<section className='absolute flex flex-col items-center justify-center w-screen px-3 h-whole'>
-				<article className='z-10 max-w-screen-md font-serif sm:pt-20 sm:text-sm md:text-2xl'>
-					<p>
-				 Tobias here.
-					</p>
-					<p className='pb-5'>
-						<span className='font-black'>UX Researcher</span>&#8197;and&#8197;
-						<span className='font-black'>UX Designer</span>&#8197;from northern
-						Italy.
-					</p>
-					<p className='pb-5'>
-					I combine the iterative process of design thinking with a&nbsp;
-					<nobr>human-centered</nobr> approach to complex problems.</p>
-					
-
-						<NavLink to='/work' className='px-3 py-2 font-sans text-sm font-light uppercase bg-gray-100 rounded-full hover:bg-gray-800 hover:text-white'>
-						Check my work
-						</NavLink>
-
-
-				</article>
-			</section>
-=======
 
 			<main className='sm:pt-48 md:pt-80 xl:pt-96'>
 				<p>Tobias here.</p>
@@ -76,7 +52,6 @@ export function Home() {
 					/>
 				</section>
 			</main>
->>>>>>> Mobile
 		</React.Fragment>
 	);
 }

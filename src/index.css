@@ -1,14 +1,8 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-@import url("./charter/charter.css");
-=======
 @import url('./charter/charter.css');
->>>>>>> Mobile
 
 @import url('https://rsms.me/inter/inter.css');
 html {
@@ -77,11 +71,7 @@ body {
 
 @layer base {
 	main {
-<<<<<<< HEAD
-		@apply container max-w-screen-md py-10 mx-auto sm:px-3 md:px-0;
-=======
 		@apply container max-w-screen-lg py-10 mx-auto sm:px-3 xl:px-0;
->>>>>>> Mobile
 	}
 	h1,
 	h2,
@@ -100,26 +90,15 @@ body {
 	h3 {
 		@apply font-semibold md:text-3xl sm:text-2xl;
 	}
-<<<<<<< HEAD
-	h4{
-=======
 	h4 {
->>>>>>> Mobile
 		@apply font-medium md:text-2xl sm:text-xl;
 	}
 
 	p {
-<<<<<<< HEAD
-		@apply font-serif t:text-base md:mb-4 sm:mb-1 sm:text-sm ;
-		letter-spacing: -0.003em;
-		word-break: break-word;
-		font-weight:400;
-=======
 		@apply max-w-screen-md font-serif t:text-base md:mb-4 sm:mb-1 sm:text-sm;
 		letter-spacing: -0.003em;
 		word-break: break-word;
 		font-weight: 400;
->>>>>>> Mobile
 		color: rgba(41, 41, 41, 1);
 	}
 
@@ -128,13 +107,7 @@ body {
 		@apply font-serif sm:text-sm md:text-base;
 		letter-spacing: -0.003em;
 		word-break: break-word;
-<<<<<<< HEAD
-		font-weight:400;
-		color: rgba(41, 41, 41, 1);
-
-=======
 		font-weight: 400;
 		color: rgba(41, 41, 41, 1);
->>>>>>> Mobile
 	}
 }

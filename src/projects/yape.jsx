@@ -254,26 +254,6 @@ export function Yape() {
 					Closing this milestone helped the company secure a new set of
 					investors, and collabs all over the world.
 				</p>
-<<<<<<< HEAD
-<div className='text-2xl font-medium text-gray-800'>
-				<a
-					href='https://gigalife.vodafone.com/il-postino-5g-yape-robot-postman-delivery/'
-					target='_blank'
-					rel='noopener noreferrer'
-					className='hover:text-red-600'
-				>
-					Japan Post
-				</a>
-				<br />
-				<a
-					href='https://www.bluebiz.com/en/bluebook/bluebook/say-hi-to-yape-at-frankfurt-airport/#:~:text=YAPE%20is%20an%20artificial%20intelligence,them%20transport%20their%20small%20luggage.'
-					target='_blank'
-					rel='noopener noreferrer'
-					className='hover:text-red-600'
-				>
-					Frankfurt Airport
-				</a></div>
-=======
 				<div className='text-2xl font-medium text-gray-800'>
 					<a
 						href='https://gigalife.vodafone.com/il-postino-5g-yape-robot-postman-delivery/'
@@ -293,7 +273,6 @@ export function Yape() {
 						Frankfurt Airport
 					</a>
 				</div>
->>>>>>> Mobile
 			</main>
 		</React.Fragment>
 	);
