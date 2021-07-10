@@ -5,8 +5,8 @@ import {
 	Switch,
 	useLocation,
 } from 'react-router-dom';
-import { Home, About, Work, Contacts } from './pages/';
-import { Blobs, MrBin, Pharma, Yape } from './projects';
+import { Home, Info } from './pages/';
+import { Yape } from './projects';
 import { Nav } from './components/nav';
 
 function ScrollToTop() {
@@ -30,14 +30,8 @@ export default function App() {
 
 			<Switch>
 				<Route path='/' exact component={Home} />
-				<Route path='/about' exact component={About} />
-				<Route path='/work' exact component={Work} />
-				<Route path='/work/yape' exact component={Yape} />
-				<Route path='/work/blobs' exact component={Blobs} />
-				<Route path='/work/mrbin' exact component={MrBin} />
-				<Route path='/work/pharma' exact component={Pharma} />
-
-				<Route path='/contacts' exact component={Contacts} />
+				<Route path='/about' exact component={Info} />
+				<Route path='/yape' exact component={Yape} />
 			</Switch>
 		</Router>
 	);

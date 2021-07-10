@@ -4,7 +4,7 @@ import CN from 'classnames';
 
 export function Card(props) {
 	return (
-		<section className='mx-auto lg:max-w-screen-lg sm:w-full group'>
+		<section className='mx-auto group'>
 			<NavLink to={props.to}>
 				<div
 					style={{
@@ -18,10 +18,13 @@ export function Card(props) {
 							props.bg
 						)}
 					>
-						<div className='tracking-tighter sm:text-6xl sm:font-black sm:p-1 md:text-9xl md:px-5 lg:text-11xl '>
-							{props.text}
+						<div className='p-3 font-normal tracking-widest uppercase'>
+							{props.type}
 						</div>
-						<div className='p-3 font-light md:text-5xl sm:text-lg '>
+						<div className='tracking-tighter sm:text-6xl sm:font-black sm:p-1 md:text-9xl md:px-5 lg:text-11xl '>
+							{props.title}
+						</div>
+						<div className='p-3 font-light tracking-tighter md:text-5xl sm:text-lg'>
 							{props.subtitle}
 						</div>
 					</div>
