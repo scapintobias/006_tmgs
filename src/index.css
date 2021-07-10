@@ -1,6 +1,10 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("./charter/charter.css");
 
 @import url('https://rsms.me/inter/inter.css');
 html {
@@ -13,98 +17,6 @@ html {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* latin */
-@font-face {
-	font-family: 'charter';
-	font-weight: 400;
-	font-style: italic;
-	src: url('https://glyph.medium.com/font/81d2bf1/0-3j_4g_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-400-italic.woff')
-		format('woff');
-	unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
-		U+2022, U+2026;
-}
-
-/* rest */
-@font-face {
-	font-family: 'charter';
-	font-weight: 400;
-	font-style: italic;
-	src: url('https://glyph.medium.com/font/81d2bf1/3k-4f_4h-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-400-italic.woff')
-		format('woff');
-	unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
-		U+201E-2021, U+2023-2025, U+2027-10FFFF;
-}
-
-/* latin */
-@font-face {
-	font-family: 'charter';
-	font-weight: 400;
-	font-style: normal;
-	src: url('https://glyph.medium.com/font/be78681/0-3j_4g_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-400-normal.woff')
-		format('woff');
-	unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
-		U+2022, U+2026;
-}
-
-/* rest */
-@font-face {
-	font-family: 'charter';
-	font-weight: 400;
-	font-style: normal;
-	src: url('https://glyph.medium.com/font/be78681/3k-4f_4h-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-400-normal.woff')
-		format('woff');
-	unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
-		U+201E-2021, U+2023-2025, U+2027-10FFFF;
-}
-
-/* latin */
-@font-face {
-	font-family: 'charter';
-	font-weight: 700;
-	font-style: italic;
-	src: url('https://glyph.medium.com/font/77a0c0c/0-3j_4g_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-700-italic.woff')
-		format('woff');
-	unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
-		U+2022, U+2026;
-}
-
-/* rest */
-@font-face {
-	font-family: 'charter';
-	font-weight: 700;
-	font-style: italic;
-	src: url('https://glyph.medium.com/font/77a0c0c/3k-4f_4h-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-700-italic.woff')
-		format('woff');
-	unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
-		U+201E-2021, U+2023-2025, U+2027-10FFFF;
-}
-
-/* latin */
-@font-face {
-	font-family: 'charter';
-	font-weight: 700;
-	font-style: normal;
-	src: url('https://glyph.medium.com/font/f50d520/0-3j_4g_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-700-normal.woff')
-		format('woff');
-	unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D,
-		U+2022, U+2026;
-}
-
-/* rest */
-@font-face {
-	font-family: 'charter';
-	font-weight: 700;
-	font-style: normal;
-	src: url('https://glyph.medium.com/font/f50d520/3k-4f_4h-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-700-normal.woff')
-		format('woff');
-	unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B,
-		U+201E-2021, U+2023-2025, U+2027-10FFFF;
-}
 
 /* latin */
 @font-face {
@@ -119,6 +31,13 @@ html {
 
 .noe {
 	font-family: 'noe';
+}
+
+/* ######################################## */
+
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 }
 
 @layer utilities {
@@ -152,7 +71,7 @@ html {
 
 @layer base {
 	main {
-		@apply container max-w-screen-lg py-10 mx-auto sm:px-3 lg:px-0;
+		@apply container max-w-screen-md py-10 mx-auto sm:px-3 md:px-0;
 	}
 	h1,
 	h2,
@@ -160,27 +79,36 @@ html {
 	h4,
 	h5,
 	h6 {
-		@apply font-medium md:pt-5 md:mb-2 sm:pt-3 sm:mb-1;
+		@apply tracking-tight text-gray-800 md:pt-5 md:mb-2 sm:pt-3 sm:mb-1;
 	}
 	h1 {
-		@apply mb-3 tracking-tighter md:text-4xl sm:text-3xl;
+		@apply mb-4 font-extrabold md:text-5xl sm:text-4xl;
 	}
 	h2 {
-		@apply md:text-3xl sm:text-2xl;
+		@apply font-bold md:text-4xl sm:text-3xl;
 	}
 	h3 {
-		@apply md:text-2xl sm:text-xl;
+		@apply font-semibold md:text-3xl sm:text-2xl;
 	}
-	h4 {
-		@apply md:text-xl sm:text-base;
+	h4{
+		@apply font-medium md:text-2xl sm:text-xl;
 	}
 
 	p {
-		@apply font-serif md:mb-4 sm:mb-1 sm:text-sm md:text-base;
+		@apply font-serif t:text-base md:mb-4 sm:mb-1 sm:text-sm ;
+		letter-spacing: -0.003em;
+		word-break: break-word;
+		font-weight:400;
+		color: rgba(41, 41, 41, 1);
 	}
 
 	ul,
 	li {
 		@apply font-serif sm:text-sm md:text-base;
+		letter-spacing: -0.003em;
+		word-break: break-word;
+		font-weight:400;
+		color: rgba(41, 41, 41, 1);
+
 	}
 }

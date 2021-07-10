@@ -14,7 +14,7 @@ export function Yape() {
 			</Title>
 
 			<main>
-				<h1>Context</h1>
+				<h2>Context</h2>
 				<p>
 					I led the design for the driving interface between July and November
 					2018. I worked alongside the CEO of the company, a project manager, a
@@ -255,7 +255,7 @@ export function Yape() {
 					Closing this milestone helped the company secure a new set of
 					investors, and collabs all over the world.
 				</p>
-
+<div className='text-2xl font-medium text-gray-800'>
 				<a
 					href='https://gigalife.vodafone.com/il-postino-5g-yape-robot-postman-delivery/'
 					target='_blank'
@@ -272,7 +272,7 @@ export function Yape() {
 					className='hover:text-red-600'
 				>
 					Frankfurt Airport
-				</a>
+				</a></div>
 			</main>
 		</React.Fragment>
 	);

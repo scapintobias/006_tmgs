@@ -4,12 +4,12 @@ import { Card } from '../components/card';
 export function Work() {
 	return (
 		<main className='flex flex-col'>
-			<div className='self-end my-32 lg:w-5/12 md:w-1/2 sm:w-full'>
-				<div className='mb-4'>
-					<span className='pr-1 sm:text-base md:text-2xl'>&#10168;</span>
-					<span className='sm:text-base md:text-2xl'>Digital</span>
+			<div className='self-end px-5 py-3 my-32 bg-gray-100 lg:w-5/12 t:w-1/2 sm:w-full'>
+				<div className='mb-4 text-gray-800'>
+					<span className='pr-1 text-3xl'>&#10168;</span>
+					<span className='text-3xl font-bold '>Digital</span>
 				</div>
-				<p>
+				<p className='text-sm'>
 					Adj. mid-15c., “pertaining to numbers below ten;” 1650s, “pertaining
 					to fingers,” from Latin <i>digitalis</i>, from digitus “finger or toe”
 					(see digit). The numerical sense is because numerals under 10 were
@@ -19,7 +19,7 @@ export function Work() {
 					or broadcasting, from 1960.
 				</p>
 			</div>
-			<h3>Disclaimer</h3>
+			<h2>Disclaimer</h2>
 			<p>
 				This is <b>not</b> a UI portfolio. So if you were looking for flashy
 				animations and bright-coloured screens—I'm afraid you are very well in

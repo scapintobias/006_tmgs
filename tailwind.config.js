@@ -18,6 +18,7 @@ module.exports = {
 			},
 			screens: {
 				sm: '320px',
+				t:'600px',
 				md: '767px',
 			},
 			fontSize: {
@@ -32,7 +33,7 @@ module.exports = {
 		fontFamily: {
 			sans: ['Inter var', ...defaultTheme.fontFamily.sans],
 			mono: ['JetBrains Mono', ...defaultTheme.fontFamily.mono],
-			serif: ['Playfair Display', ...defaultTheme.fontFamily.serif],
+			serif: ['Charter', ...defaultTheme.fontFamily.serif],
 		},
 	},
 };
