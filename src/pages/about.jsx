@@ -2,7 +2,7 @@ import React from 'react';
 
 export function About() {
 	return (
-		<main>
+		<main className="pt-36">
 			<h1>Me...thod</h1>
 			<p>More reading? Of course!</p>
 

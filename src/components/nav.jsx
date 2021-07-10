@@ -64,7 +64,10 @@ export function Menu() {
 export function Nav() {
 	return (
 		<React.Fragment>
-			<div className='fixed z-40 flex flex-row items-center justify-between w-screen h-10 text-gray-800 bg-white border-b border-gray-200 border-opacity-50'>
+			<section className='flex justify-center '>
+			<div className="fixed w-full bg-white md:h-10 sm:h-9"/>
+			<div className='fixed z-40 flex flex-row items-center justify-between w-full max-w-screen-md mx-auto text-gray-800 '>
+
 				{/* logo */}
 				<NavLink className='flex items-center hover:text-gray-500 group' to='/'>
 					<div className='flex items-center justify-center m-1 text-3xl text-white bg-gray-800 sm:w-7 md:w-8 sm:h-7 md:h-8 group-hover:bg-gray-500'>
@@ -72,9 +75,9 @@ export function Nav() {
 					</div>
 					{/* Type */}
 
-					<div className='pt-2 text-3xl tracking-tight noe '>Tobias M GS</div>
+					{/* <div className='font-sans text-3xl font-black leading-3 tracking-tight'>TMGS</div> */}
 				</NavLink>
-				<section className='items-start mr-3 space-x-4 text-sm uppercase sm:hidden md:block'>
+				<section className='items-start space-x-4 text-sm uppercase sm:hidden md:block md:pr-2 lg:pr-0'>
 					<NavLink
 						activeClassName='text-red-600'
 						className='hover:text-gray-400'
@@ -98,7 +101,9 @@ export function Nav() {
 					</NavLink>
 				</section>
 				<Menu />
+
 			</div>
+			</section>
 		</React.Fragment>
 	);
 }

@@ -4,7 +4,7 @@ import { Card } from '../components/card';
 export function Work() {
 	return (
 		<main className='flex flex-col'>
-			<div className='self-end px-5 py-3 my-32 bg-gray-100 lg:w-5/12 t:w-1/2 sm:w-full'>
+			<div className='self-end px-5 py-3 mt-32 bg-gray-100 lg:w-5/12 t:w-1/2 sm:w-full'>
 				<div className='mb-4 text-gray-800'>
 					<span className='pr-1 text-3xl'>&#10168;</span>
 					<span className='text-3xl font-bold '>Digital</span>
@@ -19,7 +19,7 @@ export function Work() {
 					or broadcasting, from 1960.
 				</p>
 			</div>
-			<h2>Disclaimer</h2>
+			{/* <h2>Disclaimer</h2>
 			<p>
 				This is <b>not</b> a UI portfolio. So if you were looking for flashy
 				animations and bright-coloured screens—I'm afraid you are very well in
@@ -40,24 +40,26 @@ export function Work() {
 				credits—hurray—please scroll and enter the case study that better suits
 				your interest.
 			</p>
-			<p>Be my guest.</p>
-			<section className='my-40 space-y-3 '>
+			<p>Be my guest.</p> */}
+			<section className='my-32 space-y-3 '>
 				<h1 className='my-10'>Case Studies:</h1>
 				<Card
 					url='/img/yape__cover.jpeg'
 					to='/work/yape'
-					text='Yape'
+					type='ux research'
+					title='Yape'
 					subtitle='Human-Robot Interaction'
 					bg='bg-yellow-500'
 				/>
-				<Card
+
+				{/* <Card
 					url='/img/pharma__cover.jpeg'
 					to='/work/pharma'
 					text='Pharma'
 					subtitle='Medicine packaging'
 					bg='bg-ruby-400'
-				/>
-				<Card
+				/> */}
+				{/* <Card
 					url='/img/blobs__cover.jpeg'
 					to='/work/blobs'
 					text='Blobs'
@@ -70,7 +72,7 @@ export function Work() {
 					text='MrBin'
 					subtitle='Let’s talk trash'
 					bg='bg-green-600'
-				/>
+				/> */}
 			</section>{' '}
 		</main>
 	);

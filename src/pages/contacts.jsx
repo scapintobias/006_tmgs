@@ -1,5 +1,8 @@
 import React from 'react';
 
 export function Contacts() {
-	return <React.Fragment></React.Fragment>;
+	return <main className="pt-36">
+		<h1>Contacts</h1>
+		<p></p>
+	</main>;
 }

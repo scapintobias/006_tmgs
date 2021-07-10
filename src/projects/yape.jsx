@@ -7,11 +7,8 @@ export function Yape() {
 			<Title
 				text='yape'
 				src='/img/yape__cover.jpeg'
-				size='39vw'
 				subtitle='Human-robot interaction'
-			>
-				<span style={{ letterSpacing: '-10vw' }}>y</span>ape
-			</Title>
+			>Yape</Title>
 
 			<main>
 				<h2>Context</h2>
@@ -224,7 +221,7 @@ export function Yape() {
 				</p>
 				<h4>LIDAR sensors</h4>
 				<p>
-					the raw data received from the LIDAR and processed by the native
+					The raw data received from the LIDAR and processed by the native
 					software made a too chaotic result, going to frustrate its usefulness,
 					therefore the development team generated an algorithm to obtain an
 					azimuthal view, showing only simple lines defining the perimeters of
@@ -234,13 +231,13 @@ export function Yape() {
 				<p>
 					It was therefore decided to use Mapbox, verified its great versatility
 					in the customisation of styles, and its precision due to the support
-					on the Openstreetmap api. Roads and pedestrian paths can have a really
+					on the Openstreetmap API. Roads and pedestrian paths can have a really
 					high contrast ratio with the buildings, so that visibility is quite
 					high even when the map is particularly small, or a glance is given
 					during driving operations, where concentration must remain to the
 					camera flow and lidars, to avoid any sudden obstacles.
 				</p>
-				<h2>Interface prototypes</h2>
+				{/* <h2>Interface prototypes</h2>
 				<p>
 					I know, what is shown in the image and in the video doesn't really
 					look <i>nice</i>. But remember, this is only a proof of concept, based
@@ -248,7 +245,7 @@ export function Yape() {
 					is only temporary, the drone will eventually drive itself, it will be
 					used only for testing purposes, so it's indeed more important that it{' '}
 					<i>works</i> rather for it to look pretty.
-				</p>
+				</p> */}
 
 				<h2>Outcome</h2>
 				<p>

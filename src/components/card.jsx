@@ -18,10 +18,11 @@ export function Card(props) {
 							props.bg
 						)}
 					>
+						<div className="p-3 font-normal tracking-widest uppercase">{props.type}</div>
 						<div className='tracking-tighter sm:text-6xl sm:font-black sm:p-1 md:text-9xl md:px-5 lg:text-11xl '>
-							{props.text}
+							{props.title}
 						</div>
-						<div className='p-3 font-light md:text-5xl sm:text-lg '>
+						<div className='p-3 font-light md:text-5xl sm:text-lg'>
 							{props.subtitle}
 						</div>
 					</div>

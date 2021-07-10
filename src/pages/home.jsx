@@ -15,11 +15,10 @@ export function Home() {
 			<section className='absolute flex flex-col items-center justify-center w-screen px-3 h-whole'>
 				<article className='z-10 max-w-screen-md font-serif sm:pt-20 sm:text-sm md:text-2xl'>
 					<p>
-				 Tobias here.
+				Tobias here.
 					</p>
 					<p className='pb-5'>
-						<span className='font-black'>UX Researcher</span>&#8197;and&#8197;
-						<span className='font-black'>UX Designer</span>&#8197;from northern
+						<span className='font-black'>UX Architect</span>&nbsp;from northern
 						Italy.
 					</p>
 					<p className='pb-5'>
