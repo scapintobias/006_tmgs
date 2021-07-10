@@ -18,8 +18,8 @@ module.exports = {
 			},
 			screens: {
 				sm: '320px',
-				t:'600px',
-				md: '768px',
+				t: '600px',
+				md: '767px',
 			},
 			fontSize: {
 				'sm': ['18px', '28px'],

@@ -1,8 +1,8 @@
 import React from 'react';
 
-export function About() {
+export function Info() {
 	return (
-		<main className="pt-36">
+		<main className='pt-36'>
 			<h1>Me...thod</h1>
 			<p>More reading? Of course!</p>
 

@@ -1,17 +1,14 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("./charter/charter.css");
+@import url('./charter/charter.css');
 
 @import url('https://rsms.me/inter/inter.css');
 html {
 	font-family: 'Inter', sans-serif;
-		overflow-x: hidden;
-		margin-right: calc(-1 * (100vw - 100%));
-	
+	overflow-x: hidden;
+	margin-right: calc(-1 * (100vw - 100%));
 }
 @supports (font-variation-settings: normal) {
 	html {
@@ -74,7 +71,7 @@ body {
 
 @layer base {
 	main {
-		@apply container max-w-screen-md py-10 mx-auto sm:px-3 md:px-0;
+		@apply container max-w-screen-lg py-10 mx-auto sm:px-3 xl:px-0;
 	}
 	h1,
 	h2,
@@ -93,15 +90,15 @@ body {
 	h3 {
 		@apply font-semibold md:text-3xl sm:text-2xl;
 	}
-	h4{
+	h4 {
 		@apply font-medium md:text-2xl sm:text-xl;
 	}
 
 	p {
-		@apply font-serif t:text-base md:mb-4 sm:mb-1 sm:text-sm ;
+		@apply max-w-screen-md font-serif t:text-base md:mb-4 sm:mb-1 sm:text-sm;
 		letter-spacing: -0.003em;
 		word-break: break-word;
-		font-weight:400;
+		font-weight: 400;
 		color: rgba(41, 41, 41, 1);
 	}
 
@@ -110,8 +107,7 @@ body {
 		@apply font-serif sm:text-sm md:text-base;
 		letter-spacing: -0.003em;
 		word-break: break-word;
-		font-weight:400;
+		font-weight: 400;
 		color: rgba(41, 41, 41, 1);
-
 	}
 }
