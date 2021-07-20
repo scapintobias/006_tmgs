@@ -6,7 +6,7 @@ import {
 	useLocation,
 } from 'react-router-dom';
 import { Home, Info } from './pages/';
-import { Yape } from './projects';
+import { Yape, Yapesrl } from './projects';
 import { Nav } from './components/nav';
 
 function ScrollToTop() {
@@ -32,6 +32,7 @@ export default function App() {
 				<Route path='/' exact component={Home} />
 				<Route path='/about' exact component={Info} />
 				<Route path='/yape' exact component={Yape} />
+				<Route path='/yapesrl' exact component={Yapesrl} />
 			</Switch>
 		</Router>
 	);

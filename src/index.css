@@ -71,7 +71,7 @@ body {
 
 @layer base {
 	main {
-		@apply container max-w-screen-lg py-10 mx-auto sm:px-3 xl:px-0;
+		@apply container max-w-screen-lg py-16 mx-auto sm:px-3 xl:px-0;
 	}
 	h1,
 	h2,

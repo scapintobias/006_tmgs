@@ -2,11 +2,18 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 // tailwind.config.js
 module.exports = {
+	mode: 'jit',
 	purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
 	darkMode: 'media',
 
 	theme: {
 		extend: {
+			height: {
+				'screen/2': '50vh',
+				'screen/3': 'calc(100vh / 3)',
+				'screen/4': 'calc(100vh / 4)',
+				'screen/5': 'calc(100vh / 5)',
+			},
 			colors: {
 				ruby: {
 					50: '#FFD1BF',

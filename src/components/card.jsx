@@ -4,27 +4,27 @@ import CN from 'classnames';
 
 export function Card(props) {
 	return (
-		<section className='mx-auto group'>
+		<section className='group'>
 			<NavLink to={props.to}>
 				<div
 					style={{
 						backgroundImage: `url(${props.url})`,
 					}}
-					className='w-full bg-center bg-cover md:h-96 sm:h-64 filter hover:blur-md'
+					className='w-full bg-center bg-cover md:h-screen/3 sm:h-64 '
 				>
 					<div
 						className={CN(
-							'flex flex-col justify-between w-full h-full text-white group-hover:bg-opacity-5',
+							'flex flex-col justify-between w-full h-full text-white pt-1 pb-3 px-2 ',
 							props.bg
 						)}
 					>
-						<div className='p-3 font-normal tracking-widest uppercase'>
+						<div className='font-normal tracking-widest uppercase md:text-2xl sm:text-sm'>
 							{props.type}
 						</div>
-						<div className='tracking-tighter sm:text-6xl sm:font-black sm:p-1 md:text-9xl md:px-5 lg:text-11xl '>
+						<div className='font-black tracking-tighter sm:text-6xl md:text-9xl lg:text-11xl'>
 							{props.title}
 						</div>
-						<div className='p-3 font-light tracking-tighter md:text-5xl sm:text-lg'>
+						<div className='font-light tracking-tighter md:text-5xl sm:text-lg'>
 							{props.subtitle}
 						</div>
 					</div>

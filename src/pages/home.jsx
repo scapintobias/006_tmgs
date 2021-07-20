@@ -14,17 +14,21 @@ export function Home() {
 			</div>
 
 			<main className='sm:pt-48 md:pt-80 xl:pt-96'>
-				<p>Tobias here.</p>
-				<p className='pb-5'>
-					<span className='font-black'>Product Designer</span>&nbsp;from
-					northern Italy.
-				</p>
-				<p className='pb-5'>
-					I combine the iterative process of design thinking with a&nbsp;
-					<nobr>human-centered</nobr> approach to complex problems.
-				</p>
+				<div className='font-serif sm:text-2xl md:text-4xl'>
+					<div>Tobias here.</div>
+					<div className='py-5'>
+						<span className='font-black'>Product Designer</span>&nbsp;from
+						northern Italy.
+					</div>
+					<div className='pb-5 leading-tight'>
+						I combine the iterative process of design thinking with a&nbsp;
+						<nobr>human-centered</nobr> approach to bring value and solve
+						complex problems.
+					</div>
+					<div className='pt-5 text-4xl text-center t:invisible'>&#9759;</div>
+				</div>
 				<div className='flex flex-col'>
-					<div className='self-end px-5 py-3 mt-32 bg-gray-100 lg:w-5/12 t:w-1/2 sm:w-full'>
+					<div className='self-end px-5 py-3 bg-gray-100 sm:mt-24 md:mt-32 lg:w-5/12 t:w-1/2 sm:w-full'>
 						<div className='mb-4 text-gray-800'>
 							<span className='pr-1 text-3xl'>&#10168;</span>
 							<span className='text-3xl font-bold '>Digital</span>
@@ -40,15 +44,26 @@ export function Home() {
 						</p>
 					</div>
 				</div>
-				<section className='my-32 space-y-3 '>
-					<h1 className='my-10'>Case Studies:</h1>
+				<section className='my-32'>
+					<h1 className='mb-10'>Case Studies:</h1>
 					<Card
 						url='/img/yape__cover.jpeg'
 						to='/yape'
 						type='ux research'
 						title='Yape'
 						subtitle='Human-Robot Interaction'
-						bg='bg-yellow-500'
+						bg='from-yellow-500 bg-gradient-to-r to-transparent hover:to-yellow-700'
+					/>
+				</section>
+				<section className='mb-32'>
+					<h1 className='mb-10'>Design Systems:</h1>
+					<Card
+						url='/img/droid__cover.png'
+						to='/yapesrl'
+						type='design system'
+						title='Yape'
+						subtitle='Some droid needed a repaint'
+						bg='from-blue-500 bg-gradient-to-r to-transparent hover:to-blue-700'
 					/>
 				</section>
 			</main>
